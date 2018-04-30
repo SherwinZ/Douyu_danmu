@@ -123,7 +123,7 @@ def keeplive():
     保持心跳，15秒心跳请求一次
      '''
     while True:
-        msg = 'mrkl/\0'
+        msg = 'type@=mrkl/\0'
         sendmsg(msg)
         time.sleep(15)
         # print('心跳一下')
